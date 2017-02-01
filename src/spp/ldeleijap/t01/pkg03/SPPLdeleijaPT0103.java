@@ -32,7 +32,7 @@ public class SPPLdeleijaPT0103 {
         System.out.println("Escriba el punto Y2");
         Y2 = (int) T.nextDouble();
         
-        D = Math.sqrt(Math.pow((X1-X2),2)) + Math.pow((Y1-Y2),2);
+        D = Math.sqrt(Math.pow((X2-X1),2)) + Math.pow((Y2-Y1),2);
         
         System.out.println("La distancia entre los puntos es:" + D);
         
